@@ -6,8 +6,8 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # --- CONFIGURATION ---
-TOKEN = "8388535592:AAFFG0Ztl8waYYW4oQCOnISU-u6_8Rjx4Q0"
-ADMIN_ID = "7173564024" 
+TOKEN = ""
+ADMIN_ID = "" 
 # ---------------------
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
